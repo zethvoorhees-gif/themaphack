@@ -208,8 +208,8 @@ void Trinage_background()
     }
 }
 int selectedOption = 0;
-std::string cimodkey = "https://t0pgamemurah.xyz/freeKey";
-std::string xyzBuyKey = "https://t0pgamemurah.xyz/freeKey";
+std::string cimodkey = "http://zeth1457-001-site1.qtempurl.com";
+std::string xyzBuyKey = "http://zeth1457-001-site1.qtempurl.com";
 
 void DrawMenu() {
 	const ImGuiViewport* main_viewport = ImGui::GetMainViewport();
