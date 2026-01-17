@@ -88,7 +88,7 @@ std::string Login(JavaVM *jvm, const char *user_key, bool *success) {
     curl = curl_easy_init();
     
     if (curl) {
-        std::string bangrendi = "http://zeth1457-001-site1.qtempurl.com/connect.php";
+        std::string bangrendi = "https://zethv.qzz.io/connect";
         //dtd::string bangrendi = bangrendi;      
         curl_easy_setopt(curl, CURLOPT_URL ,bangrendi.c_str());
         curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
